@@ -83,7 +83,7 @@ button:hover{
 
 
 
-.profile-picture{
+/* .profile-picture{
     display: block;
     margin: 0 auto;
     border: 2px solid blueviolet;
@@ -92,4 +92,17 @@ button:hover{
     height: 150px;
     border-radius: 500%;
     object-fit: cover;
-}
+} */
+
+
+
+
+.profileImage {
+    width: 100%;             /* Full width of the container */
+    max-width: 50px;        /* Optional: Limit max width */
+    height: auto;            /* Maintain aspect ratio */
+    border-radius: 50%;      /* Make the image circular */
+    object-fit: cover;       /* Ensure image covers the area */
+    margin-top: 10px;        /* Optional: Space between input and image */
+  }
+  
